@@ -4,6 +4,7 @@
 
 You may use whatever coding environment you would like, though, we will be testing your code with the following:
 
+- Python version 2.7
 - Node version 8+ 
 - Chrome browser version 60+
 
