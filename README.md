@@ -12,9 +12,9 @@ You may use whatever coding environment you would like, though, we will be testi
 
 1. Fork this repo to your Github account
 2. Clone your forked repo to your local environment
-3. Create an API endpoint inside of `api-server.py` with the url `/locations` that returns the locations found in the file `db.json`.
-4. Create an API endpoint inside of `api-server.py` with the url `/locations/:id` that returns the location specified in the url from the file `db.json`.
-5. Create an API endpoint inside of `api-server.py` with the url `/buildingtypes` that returns the building types located in the file `db.json`.
+3. Create a mock API endpoint inside of `api-server.py` with the url `/locations` that returns the locations found in the file `db.json`.
+4. Create a mock API endpoint inside of `api-server.py` with the url `/locations/:id` that returns the location specified in the url from the file `db.json`.
+5. Create a mock API endpoint inside of `api-server.py` with the url `/buildingtypes` that returns the building types located in the file `db.json`.
 6. Obtain the list of locations and building type categories from the endpoints you just created using the included `API.js`.
 7. Populate the `RemineTable` component inside of `CHANGEME.js` with the locations obtained from step 1.
 8. Build out the `CHANGEME.js` view to allow a user to filter the `RemineTable` contents based on whether the location has:
